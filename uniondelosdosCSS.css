@@ -1,0 +1,132 @@
+/* Importa las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grouch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georgia&display=swap');
+
+html {
+    scroll-behavior: smooth; /* Habilita el desplazamiento suave */
+}
+
+body {
+    margin: 2;
+    padding: 2;
+    background-image: url(fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Georgia', serif; /* Aplica la fuente Georgia para el cuerpo del texto */
+}
+
+h1 {
+    color: #410558; /* Cambia esto al color que prefieras */
+    text-align: center;
+    padding: 20px;
+    background: hsla(290, 79%, 44%, 0.404); /* Fondo semi-transparente */
+    margin: 2;
+    font-family: 'Old Standard TT', serif; /* Aplica la fuente Old Standard TT */
+    font-size: 3rem; /* Ajusta el tamaño del título */
+}
+
+h2 {
+    font-family: 'Grouch', cursive; /* Aplica la fuente Grouch para los subtítulos */
+    font-size: 2rem; /* Tamaño de fuente para los subtítulos */
+    color: #FFFFFF; /* Color de los subtítulos */
+    background: hsla(290, 79%, 44%, 0.404); /* Fondo semi-transparente */
+    padding: 10px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Ajusta el espacio entre la imagen y el texto según tu preferencia */
+}
+
+.about-img {
+    max-width: 200px; /* Ajusta el tamaño de la imagen según tu preferencia */
+    height: auto;
+    border-radius: 8px; /* Opcional: agrega bordes redondeados */
+}
+
+p {
+    font-family: 'Georgia', serif; /* Aplica la fuente Georgia para los párrafos */
+    color: #0e0e0e; /* Color del texto */
+    background: rgba(0, 0, 0, 0); /* Fondo semi-transparente para el texto */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #a168a8;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav div {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #d69bd663;
+    border-radius: 5px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.barnav {
+    display: inline-block;
+}
+
+/* Estilos adicionales para las secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+}
+
+/* Estilo para el botón fijo */
+button#inicio-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #a168a8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#inicio-btn:hover {
+    background-color: #d69bd6;
+}
+
+/* Estilos para la sección "Sobre Mí" */
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-container img {
+    margin-right: 20px;
+    border-radius: 50%; /* Esto es opcional, solo si quieres la imagen redonda */
+    width: 150px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 150px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+.about-container p {
+    flex: 1;
+}
